@@ -70,9 +70,17 @@ type: 'vulkan'
 extra : (
 vulkan-handler : true
 vulkan-version : *
-)
-OpenGL : "opengl.java","https://www.opengl.org/"
+opengl : navapi.properties
+
+mod.config.properties {
+name=//Your Mod Name
+version=//Your Mod Version you can also use '*'
+min.version=//your mod game version you can also use '*'
+modloader=//Your modloader
+modloader-version=*
 }
+
+initialize minecraft
 ```
 
 7. Compress the file into ```.jar``` extension
