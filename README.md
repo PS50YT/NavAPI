@@ -71,13 +71,17 @@ extra : (
 vulkan-handler : true
 vulkan-version : *
 opengl : navapi.properties
+minecraft.opengl : true
+jre.opengl : true
+)
 
 mod.config.properties {
 name=//Your Mod Name
 version=//Your Mod Version you can also use '*'
 min.version=//your mod game version you can also use '*'
 modloader=//Your modloader
-modloader-version=*
+modloader-version=//Use for till '*'
+mod.graphics.opengl-collusion=false
 }
 
 initialize minecraft
